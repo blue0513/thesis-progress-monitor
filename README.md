@@ -6,7 +6,7 @@ Create a bot which can monitor the progress of your paper
 
 ### Get Your Twitter API
 
-1. You need to get a twitter api access key
+1. You need to get twitter api access keys
    1. Open https://apps.twitter.com/ 
    2. Click **Create New App**
    3. Fill out info (Note: Website URL should be filled out. I recommend `127.0.0.1`)
@@ -26,6 +26,7 @@ api_secret = "YOUR_SECRET_API_KEY"
 You need to make a directory and file to save **your progress log**
 ```shell
 $ cd thesis-progress-monitor
+$ chmod 700 init.sh
 $ ./init.sh
 ```
 
